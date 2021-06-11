@@ -9,7 +9,7 @@ function getPetInfo() {
     fetch(
       " PET FINDER API GOES HERE" +
         searchTerm +
-        "API KEY GOES HERE ::::::::::::::   "
+        "QW1PdphVRcy3Pmf5qoWqfg91fEAk5o7yswNmRWPcsyyiADA14L"
     )
       .then(function (response) {
         return response.json();

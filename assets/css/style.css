@@ -1,0 +1,142 @@
+:root {
+
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:gray;
+    z-index: 999;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    overflow:hidden;
+    z-index: 999;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    color:black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:burlywood;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black(0,0,0,0.2);
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero {
+background-image:url(../images/placeholder-image.png);
+background-size: cover;
+display: flex;
+justify-content: left;
+background-attachment: fixed;
+flex-wrap: wrap;
+align-items: flex-start;
+background-position: 80%;
+text-align: left;
+height: 600px;
+position: sticky;
+position: -webkit-sticky;
+z-index: -1;
+
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+.hero-cta h2 {
+    font-size: 35px;
+    color: black;
+    text-align: left;
+  }
+
+p {
+    color: black;
+    text-align: left;
+}
+
+.dogs-cats-birds {
+    display: flex;
+    column-count: 3;
+    justify-content: space-between;
+    background-color: gray;
+    color: blue;
+
+}
+
+.dogs {
+    text-size-adjust: 20px;
+
+}

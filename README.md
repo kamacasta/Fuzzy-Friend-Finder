@@ -1,4 +1,4 @@
-# Furry-Friend-Finder
+# Fuzzy-Friend-Finder
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -9,7 +9,7 @@
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
-*** KamaCasta, Furry-Friend-Finder, @KamaCasta, KamaCasta@gmail.com, Furry-Friend-Finder, A search for github repositories!
+*** KamaCasta, Fuzzy-Friend-Finder, @KamaCasta, KamaCasta@gmail.com, Fuzzy-Friend-Finder, A search for github repositories!
 -->
 
 
@@ -35,22 +35,22 @@
 <br />
 <p align="center">
   <a href="https://github.com/kamacasta/Magnificent-Seven-project">
-    <img src="./assets/images/Furry-Friend-Finder-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./assets/images/Fuzzy-Friend-Finder-logo.png" alt="Logo" width="363" height=auto>
   </a>
 
-  <h3 align="center">Furry-Friend-Finder</h3>
+  <h3 align="center">Fuzzy-Friend-Finder</h3>
 
   <p align="center">
     A search for github repositories!
     <br />
-    <a href="https://github.com/KamaCasta/Furry-Friend-Finder"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/KamaCasta/Furry-Friend-Finder">View Demo</a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder">View Demo</a>
     ·
-    <a href="https://github.com/KamaCasta/Furry-Friend-Finder/issues">Report Bug</a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues">Report Bug</a>
     ·
-    <a href="https://github.com/KamaCasta/Furry-Friend-Finder/issues">Request Feature</a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues">Request Feature</a>
   </p>
 </p>
 
@@ -91,7 +91,7 @@
 
 *** Here's a blank template to get started:
 ***To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-*** `KamaCasta`, `Furry-Friend-Finder`, `@KamaCasta`, `KamaCasta@gmail.com`, `Furry-Friend-Finder`, `A search for github repositories!`
+*** `KamaCasta`, `Fuzzy-Friend-Finder`, `@KamaCasta`, `KamaCasta@gmail.com`, `Fuzzy-Friend-Finder`, `A search for github repositories!`
 
 
 ### Built With
@@ -113,7 +113,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/KamaCasta/Furry-Friend-Finder.git
+   git clone https://github.com/KamaCasta/Fuzzy-Friend-Finder.git
    ```
 
 
@@ -129,7 +129,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/KamaCasta/Furry-Friend-Finder/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues) for a list of proposed features (and known issues).
 
 
 
@@ -158,7 +158,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 Thomas Begush - [@KamaCasta](https://twitter.com/KamaCasta) - KamaCasta@gmail.com - 
 
-Project Link: [https://github.com/KamaCasta/Furry-Friend-Finder](https://github.com/KamaCasta/Furry-Friend-Finder)
+Project Link: [https://github.com/KamaCasta/Fuzzy-Friend-Finder](https://github.com/KamaCasta/Fuzzy-Friend-Finder)
 
 
 
