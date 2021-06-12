@@ -152,21 +152,21 @@ p {
 
 }
 
-.dogs {
+.canine {
     display: flex;
     background-color: beige;
     padding: 45px;
     border: 5px;
 }
 
-.cats {
+.feline {
     display: flex;
     background-color: beige;
     padding: 45px;
     border: 5px;
 }
 
-.birds {
+.avian {
     display: flex;
     background-color: beige;
     padding: 45px;
