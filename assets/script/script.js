@@ -15,8 +15,9 @@ function getDogBreedList() {
     .then(function (response) {
       var dogBreedList = response;
       console.log(dogBreedList);
-    });
-for (const breed in dogBreedList) {
+    })
+    for (const breed in dogBreedList) {
+    alert("Line 20!")
     console.log(`${breed}: ${dogBreedList[breed]}`);
 }
 
