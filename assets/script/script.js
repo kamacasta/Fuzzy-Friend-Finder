@@ -6,6 +6,11 @@
 var dogBreedList;
 var dogBreedImages;
 
+
+//random dog image
+
+//random cat image
+
 //gets list of all dog breeds and turns it into an array
 function getDogBreedList() {
   fetch("https://dog.ceo/api/breeds/list/all")

@@ -43,9 +43,29 @@
                 <ul>
                     <li>
                         Article placement
+<hr>
+                        This is just an embeded map:
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1750581.7400077623!2d-111.54481505953589!3d33.66304607753823!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1623535775380!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </li>
                     <li>
-                        Article placement
+                        Article placement <hr>
+                        Interactive map?
+                        <div id="map">
+   
+                        <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKVDror9wJrI2ItYKj1qMZUKWKFPzH4lg&callback=initMap">
+                        </script>
+                        <script>
+                            function initMap() {
+                                var defaultLocation = {lat: 40.700802, lng:73.987602};
+                                var mapOptions = {
+                                    center: defaultLocation,
+                                    zoom: 10
+                                };
+                                var googlemap = new google.maps.Map(document.getElementById("map"), mapOptions);
+                            }
+                        </script>
+                        </div>
                     </li>
                     <li>
                         Article placement
@@ -61,7 +81,7 @@
                 <div class="furry-friend-heading">Adopt a Furry Friend</div>
 
                 <div>
-                    <div class="code-wrapper breeds">
+                    <div class="dog-breed-selector">
                     <span class="code">https://dog.ceo/api/breed/<select class="dog-selector">
 <option value="Choose Your Dog">Choose Your Dog Breed</option>
 <option value="affenpinscher">affenpinscher</option>
