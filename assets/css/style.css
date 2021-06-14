@@ -1,7 +1,3 @@
-:root {
-
-}
-
 * { 
     box-sizing: border-box;
     margin: 0;
@@ -90,8 +86,16 @@ header a {
     display: block;
 }
 
+#randomdog {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
 .hero {
-background-image:url(../images/placeholder-image.png);
+background-image:url(../images/fuzzyfriendfinderlogo.png);
 background-size: cover;
 display: flex;
 justify-content: left;
@@ -152,23 +156,37 @@ p {
 
 }
 
-.dogs {
+.canine {
     display: flex;
     background-color: beige;
     padding: 45px;
     border: 5px;
 }
 
-.cats {
+.feline {
     display: flex;
     background-color: beige;
     padding: 45px;
     border: 5px;
 }
 
-.birds {
+.avian {
     display: flex;
     background-color: beige;
     padding: 45px;
     border: 5px;
 }
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 100%;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 75%;
+        margin: 0;
+        padding: 0;
+      }
