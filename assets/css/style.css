@@ -104,7 +104,7 @@ header a {
     
 }
 
-
+/* 
 .hero {
 background-image:url(../images/fuzzyfriendfinderlogo.png);
 background-size: cover;
@@ -136,11 +136,12 @@ border-bottom: 3px solid black;
     color: black;
     text-align: left;
   }
+*/
 
 p {
     color: black;
     text-align: left;
-}
+} 
 
 .articles {
     display: flex;

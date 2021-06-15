@@ -7,15 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <title>Fuzzy Friend Finder</title>
+    <title>Fuzzy Friends</title>
 </head>
 
 <body>
     <header>
+        <!-- Navbar begins -->
         <nav class="navbar is-transparent">
             <div class="navbar-brand">
+                <!-- Clicking Fuzzy Friends will direct to git repo-->
                 <a class="navbar-item" href="https://github.com/kamacasta/Fuzzy-Friend-Finder">
-                    <img src="" width="112" height="28">
+
+                    <h1 class="title">Fuzzy Friends</h1>
+                    <!-- Possible logo cant get the size I want -kama <img src="./assets/images/FuzzyFriends.png" width="112" height="50"> -->
                 </a>
                 <div class="navbar-burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -23,76 +27,97 @@
                     <span></span>
                 </div>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-item has-dropdown is-hoverable navbar-end">
                 <a class="navbar-link">
-                    Helpful Links
+                    Looking for Pets?
                 </a>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="">
+                    <!-- Navbar Items-->
+                    <a class="navbar-item" href="https://www.petfinder.com/search/dogs-for-adoption/us" target="_blank">
                         Dogs
                     </a>
-                    <a class="navbar-item" href="">
+                    <a class="navbar-item" href="https://www.petfinder.com/search/cats-for-adoption/us" target="_blank">
                         Cats
                     </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="">
-                        Pet Hotels
-                    </a>  
+                    <a class="navbar-item" href="https://www.petfinder.com/search/birds-for-adoption/us"
+                        target="_blank">
+                        Birds
+                    </a>
         </nav>
-        <!-- <h1>
-            <a href="FuzzyFriends">Fuzzy Friend Finder</a>
-        </h1>
-        <div class="navbar is-primary">
-            <div class="container"></div>
-            <a href="#about-us">About Us</a>
-            <a href="#articles">Articles</a>
-            <div class="dropdown">
-              <button class="dropbtn">Adopt
-              </button>
-              <div class="dropdown-content">
-                <a href="#dogs">Dogs</a>
-                <a href="#cats">Cats</a>
-              </div>
-            </div> 
-          </div> -->
     </header>
-
-    <section class="hero">
-        <div class="hero-cta">
-            <h2>About Us</h2>
-            <p>Fuzzy Friends is a application allows you to</p>
+    <!-- Hero -->
+    <section class="hero is-small is-info">
+        <div class="hero-body">
+            <p class="title has-text-centered">
+                Our Dev's Pets!
+            </p>
         </div>
     </section>
+    <!-- Put images in columns-->
+    <div class="container">
+        <div class="columns is-mobile is-desktop">
+            <div class="column is-5">
+                <!-- Kama's Pet-->
+                <img src="./assets/images/placeholder-image.png" alt="Dev Kama's pet">
+            </div>
+            <div class="column is-5 tile">
+                <!-- Thomas's Pet-->
+                <img src="./assets/images/placeholder-image.png" alt="Dev Thomas's pet">
+            </div>
+            <div class="column is-3 tile">
+                <!-- Keegan's Pet-->
+                <img src="./assets/images/placeholder-image.png" alt="Dev Keegan's pet">
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero-->
 
-    <div class="Favorites"></div>
-    <h3>About You!
-    </h3>
-    <p>Tell us your Animal Prefrence</p>
-    <form>
-        <label for="FavoriteAnimal">Favorite Animal</label>
-        <input type="text" placeholder="Favorite Animal" id="favoriteanimal" name="favoriteanimal" class="form-input" />
-        <label for="Breed">Breed</label>
-        <input type="text" placeholder="Breed" id="Breed" name="Breed" class="form-input" />
-        <p>
-            Have you Adopted Before?
-            <span class="radio-wrapper">
-                <input type="radio" name="adoption-confirm" id="adoption-yes" />
-                <label for="adoption-yes">Yes</label>
-                <span class="radio-wrapper">
-                    <input type="radio" name="adoption-confirm" id="adoption-no" />
-                    <label for="adoption-no">No</label>
-        </p>
-        <button onclick="store()" type="button">Submit</button>
-    </form>
-    <div class="articles">Don't Shop. ADOPT!</div>
+    <!--Form Begins-->
+    <div class="column is-one-third">
+        <div class="box">
+            <h3>About You!
+            </h3>
+            <p>Tell us your Animal Prefrence</p>
+            <form>
+                <label for="FavoriteAnimal">Favorite Animal</label>
+                <input type="text" placeholder="Favorite Animal" id="favoriteanimal" name="favoriteanimal"
+                    class="form-input" />
+                <label for="Breed">Breed</label>
+                <input type="text" placeholder="Breed" id="Breed" name="Breed" class="form-input" />
+                <p>
+                    Have you Adopted Before?
+                    <span class="radio-wrapper">
+                        <input type="radio" name="adoption-confirm" id="adoption-yes" />
+                        <label for="adoption-yes">Yes</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="adoption-confirm" id="adoption-no" />
+                            <label for="adoption-no">No</label>
+                </p>
+                <button onclick="store()" type="button">Submit</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    <!-- Form ends wrapped with column and box div placed inside -->
 
-    <section id="randomdog">
+    <!-- Random Dog & Cat containers-->
+    <!-- Not sure if I did this right pls dont be mad :(-->
+<section class="section">
+    <h1 class="title">Random Fuzzy Friend Photos!</h1>
+    <div>
+        <img src="./assets/images/placeholder-image.png" alt="A picture of a random dog!">
+        <img src="./assets/images/placeholder-image.png" alt="A picture of a random cat!">
+    </div>
+</section>
+
+
+    <!-- <section id="randomdog">
         Random Dog Pic
     </section>
     <hr>
     <section id="randomcat">
         Random Cat Pic
-    </section>
+    </section> -->
 
     <section id="articles">
         <h1>
@@ -316,6 +341,3 @@
 <script src="./assets/script/script.js"></script>
 
 </html>
-
-
-
