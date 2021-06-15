@@ -6,6 +6,14 @@
 var dogBreedList;
 var dogBreedImages;
 
+//save About You to local Storage
+
+
+function store(){
+  var inputanimal= document.getElementById("favoriteanimal");
+  localStorage.setItem("favoriteanimal", inputanimal.value);
+}
+
 //random dog image - need to set max size
 function getRandomDog() {
   fetch("https://dog.ceo/api/breeds/image/random")
@@ -69,6 +77,20 @@ function getDogBreedImages() {
     });
 }
 
+
+// }
+// let map;
+
+// function initMap() {
+//   map = new google.maps.Map(document.getElementById("map"), {
+//     center: { lat: 33.4484, lng: -112.0740 },
+//     zoom: 8,
+//   });
+// }
+// getRandomCat()
+// getRandomDog()
+// getDogBreedList();
+
 let map;
 
 function initMap() {
@@ -80,3 +102,4 @@ function initMap() {
 getRandomCat()
 getRandomDog()
 getDogBreedList();
+
