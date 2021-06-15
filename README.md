@@ -1,4 +1,4 @@
-# Group-7-Project
+# Fuzzy-Friend-Finder
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -9,7 +9,7 @@
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
-*** tbegush, git-it-done, @tbegush, tbegush@gmail.com, git-it-done, A search for github repositories!
+*** KamaCasta, Fuzzy-Friend-Finder, @KamaCasta, KamaCasta@gmail.com, Fuzzy-Friend-Finder, A search for github repositories!
 -->
 
 
@@ -34,23 +34,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/tbegush/git-it-done">
-    <img src="./assets/images/git-it-done-logo.png" alt="Logo" width="363" height=auto>
+  <a href="https://github.com/kamacasta/Magnificent-Seven-project">
+    <img src="./assets/images/Fuzzy-Friend-Finder-logo.png" alt="Logo" width="363" height=auto>
   </a>
 
-  <h3 align="center">git-it-done</h3>
+  <h3 align="center">Fuzzy-Friend-Finder</h3>
 
   <p align="center">
     A search for github repositories!
     <br />
-    <a href="https://github.com/tbegush/git-it-done"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tbegush/git-it-done">View Demo</a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder">View Demo</a>
     ·
-    <a href="https://github.com/tbegush/git-it-done/issues">Report Bug</a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tbegush/git-it-done/issues">Request Feature</a>
+    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues">Request Feature</a>
   </p>
 </p>
 
@@ -87,18 +87,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`tbegush`, `git-it-done`, `@tbegush`, `tbegush@gmail.com`, `git-it-done`, `A search for github repositories!`
+*** Here's a blank template to get started:
+***To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+*** `KamaCasta`, `Fuzzy-Friend-Finder`, `@KamaCasta`, `KamaCasta@gmail.com`, `Fuzzy-Friend-Finder`, `A search for github repositories!`
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [HTML]()
+* [CSS]()
+* [Javascript]()
 
 
 
@@ -109,23 +109,12 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/tbegush/git-it-done.git
+   git clone https://github.com/KamaCasta/Fuzzy-Friend-Finder.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -140,7 +129,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/tbegush/git-it-done/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues) for a list of proposed features (and known issues).
 
 
 
@@ -167,9 +156,9 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 <!-- CONTACT -->
 ## Contact
 
-Thomas Begush - [@tbegush](https://twitter.com/tbegush) - tbegush@gmail.com - 
+Thomas Begush - [@KamaCasta](https://twitter.com/KamaCasta) - KamaCasta@gmail.com - 
 
-Project Link: [https://github.com/tbegush/git-it-done](https://github.com/tbegush/git-it-done)
+Project Link: [https://github.com/KamaCasta/Fuzzy-Friend-Finder](https://github.com/KamaCasta/Fuzzy-Friend-Finder)
 
 
 
