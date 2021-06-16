@@ -8,15 +8,19 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <title>Fuzzy Friend Finder</title>
+    <title>Fuzzy Friends</title>
 </head>
 
 <body>
     <header>
+        <!-- Navbar begins -->
         <nav class="navbar is-transparent">
             <div class="navbar-brand">
+                <!-- Clicking Fuzzy Friends will direct to git repo-->
                 <a class="navbar-item" href="https://github.com/kamacasta/Fuzzy-Friend-Finder">
-                    <img src="" width="112" height="28">
+
+                    <h1 class="title">Fuzzy Friends</h1>
+                    <!-- Possible logo cant get the size I want -kama <img src="./assets/images/FuzzyFriends.png" width="112" height="50"> -->
                 </a>
                 <div class="navbar-burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -24,122 +28,113 @@
                     <span></span>
                 </div>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-item has-dropdown is-hoverable navbar-end">
                 <a class="navbar-link">
-                    Helpful Links
+                    Looking for Pets?
                 </a>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="">
+                    <!-- Navbar Items-->
+                    <a class="navbar-item" href="https://www.petfinder.com/search/dogs-for-adoption/us" target="_blank">
                         Dogs
                     </a>
-                    <a class="navbar-item" href="">
+                    <a class="navbar-item" href="https://www.petfinder.com/search/cats-for-adoption/us" target="_blank">
                         Cats
                     </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="">
-                        Pet Hotels
-                    </a>  
+                    <a class="navbar-item" href="https://www.petfinder.com/search/birds-for-adoption/us"
+                        target="_blank">
+                        Birds
+                    </a>
         </nav>
-        <!-- <h1>
-            <a href="FuzzyFriends">Fuzzy Friend Finder</a>
-        </h1>
-        <div class="navbar is-primary">
-            <div class="container"></div>
 
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Fuzzy Friend Finder</title>
-</head>
-<body>
-    <header>
-        <h1>
-            <a href="FuzzyFriends">Fuzzy Friend Finder</a>
-        </h1>
-        <div class="navbar">
-
-            <a href="#about-us">About Us</a>
-            <a href="#articles">Articles</a>
-            <div class="dropdown">
-              <button class="dropbtn">Adopt
-
-
-                <i class="fa fa-caret-down"></i>
-
-              </button>
-              <div class="dropdown-content">
-                <a href="#dogs">Dogs</a>
-                <a href="#cats">Cats</a>
-
-              </div>
-            </div> 
-          </div> -->
-    </header>
-
-    <section class="hero">
-        <div class="hero-cta">
-            <h2>About Us</h2>
-            <p>Fuzzy Friends is a application allows you to</p>
+    <!-- Hero -->
+    <section class="hero is-small is-info">
+        <div class="hero-body">
+            <p class="title has-text-centered">
+                Our Dev's Pets!
+            </p>
         </div>
     </section>
+    <!-- Put images in columns-->
+    <div class="container">
+        <div class="columns is-mobile is-desktop">
+            <div class="column is-5">
+                <!-- Kama's Pet-->
+                <img src="./assets/images/placeholder-image.png" alt="Dev Kama's pet">
+            </div>
+            <div class="column is-5 tile">
+                <!-- Thomas's Pet-->
+                <img src="./assets/images/thomasdog.jpg" alt="Dev Thomas's pet">
+            </div>
+            <div class="column is-5 tile">
+                <!-- Keegan's Pet-->
+                <img src="./assets/images/placeholder-image.png" alt="Dev Keegan's pet">
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero-->
 
-    <div class="Favorites"></div>
-    <h3>About You!
-    </h3>
-    <p>Tell us your Animal Prefrence</p>
-    <form>
-        <label for="FavoriteAnimal">Favorite Animal</label>
-        <input type="text" placeholder="Favorite Animal" id="favoriteanimal" name="favoriteanimal" class="form-input" />
-        <label for="Breed">Breed</label>
-        <input type="text" placeholder="Breed" id="Breed" name="Breed" class="form-input" />
-        <p>
-            Have you Adopted Before?
-            <span class="radio-wrapper">
-                <input type="radio" name="adoption-confirm" id="adoption-yes" />
-                <label for="adoption-yes">Yes</label>
-                <span class="radio-wrapper">
-                    <input type="radio" name="adoption-confirm" id="adoption-no" />
-                    <label for="adoption-no">No</label>
-        </p>
-        <button onclick="store()" type="button">Submit</button>
-    </form>
-    <div class="articles">Don't Shop. ADOPT!</div>
-
-    <section id="randomdog">
-        Random Dog Pic
+    <!--Form Begins-->
+    <div class="column is-one-third">
+        <div class="box">
+            <h3>About You!
+            </h3>
+            <p>Tell us your Animal Prefrence</p>
+            <form>
+                <label for="FavoriteAnimal">Favorite Animal</label>
+                <input type="text" placeholder="Favorite Animal" id="favoriteanimal" name="favoriteanimal"
+                    class="form-input" />
+                <label for="Breed">Breed</label>
+                <input type="text" placeholder="Breed" id="Breed" name="Breed" class="form-input" />
+                <p>
+                    Have you Adopted Before?
+                    <span class="radio-wrapper">
+                        <input type="radio" name="adoption-confirm" id="adoption-yes" />
+                        <label for="adoption-yes">Yes</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="adoption-confirm" id="adoption-no" />
+                            <label for="adoption-no">No</label>
+                </p>
+                <button onclick="store()" type="button">Submit</button>
+            </form>
+        </div>
+    </div>
     </section>
-    <hr>
-    <section id="randomcat">
-        Random Cat Pic
-    </section>
+    <!-- Form ends wrapped with column and box div placed inside -->
 
-    <section id="articles">
+    <!-- Random Dog & Cat containers-->
+<section class="section">
+    <h1 class="title" id="randompics">Random Fuzzy Friend Photos!</h1>
+    <div id="randomdog" alt="A picture of a random dog!" >
+      
+    </div>
+    <div id="randomcat" alt="A picture of a random cat!">
+        
+    </div>
+</section>
+
+   <section id="articles">
         <h1>
             <ul>
                 <li>
                     <hr>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, eius natus. Quibusdam quas
-                    itaque cum incidunt, quod totam cumque quasi, id earum quos ea aperiam dolor placeat odit modi
-                    officia!
+                    <a href="http://www.azbcr.org">Arizona Border Collie Rescue</a>
 
                 </li>
                 <hr>
                 <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque at porro, assumenda maiores
-                    ullam, ratione, distinctio quia iusto veniam tempora corporis adipisci est voluptatibus. Nihil
-                    obcaecati asperiores exercitationem necessitatibus!
+                    <a href="https://fallenfeathers.org/">Fallen Feathers Bird Rescue</a>
 
                 </li>
                 <hr>
                 <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio ad dolorum impedit voluptate
-                    quam ut sunt, eius sit, ea assumenda, obcaecati culpa. Saepe perspiciatis ipsa tempora adipisci
-                    ratione deleniti?
+                    <a href="https://www.azhumane.org/adopt/find-a-pet/adopt-a-cat/">AZ Humane Society - Cats!</a>  
                 </li>
             </ul>
         </h1>
         </div>
 
-                <a href="#birds">Birds</a>
+            
               </div>
             </div> 
           </div>
@@ -152,13 +147,6 @@
         </div>
     </section>
     <div class="articles">Don't Shop. ADOPT!</div>
-<section id="randomdog">
-    Random Dog Pic
-</section>
-<hr>
-<section id="randomcat">
-    Random Cat Pic
-</section>
 
     <section id="articles">
             <h1>
@@ -189,10 +177,10 @@
         <h1>
             <div class="furry-friend-heading">Adopt a Furry Friend</div>
 
-            <!-- need to hide this url and replace with a working button -->
             <div>
                 <div class="dog-breed-selector">
-                    <Button class="dogButton">Are you looking for a specific dog breed? <select class="dog-selector">
+                    <div>Have you ever been curious as to what a specific breed of dog looks like? 
+                        <select id="dropDownID">
                             <option value="Choose Your Dog">Choose Your Dog Breed</option>
                             <option value="affenpinscher">affenpinscher</option>
                             <option value="african">african</option>
@@ -336,204 +324,36 @@
                             <option value="weimaraner">weimaraner</option>
                             <option value="whippet">whippet</option>
                             <option value="wolfhound-irish">irish wolfhound</option>
-                        </select></button>
+                        </select>
+                    </div>
+
+<img id="specDogPic" />
 
                 </div>
             </div>
 
         </h1>
 
-            <h1>
-                <div class="furry-friend-heading">Adopt a Furry Friend</div>
-
-                <!-- need to hide this url and replace with a working button -->
-                <div>
-                    <div class="dog-breed-selector">
-                    <Button class="dogButton">Are you looking for a specific dog breed? <select class="dog-selector">
-<option value="Choose Your Dog">Choose Your Dog Breed</option>
-<option value="affenpinscher">affenpinscher</option>
-<option value="african">african</option>
-<option value="airedale">airedale</option>
-<option value="akita">akita</option>
-<option value="appenzeller">appenzeller</option>
-<option value="australian-shepherd">shepherd australian</option>
-<option value="basenji">basenji</option>
-<option value="beagle">beagle</option>
-<option value="bluetick">bluetick</option>
-<option value="borzoi">borzoi</option>
-<option value="bouvier">bouvier</option>
-<option value="boxer">boxer</option>
-<option value="brabancon">brabancon</option>
-<option value="briard">briard</option>
-<option value="buhund-norwegian">norwegian buhund</option>
-<option value="bulldog-boston">boston bulldog</option>
-<option value="bulldog-english">english bulldog</option>
-<option value="bulldog-french">french bulldog</option>
-<option value="bullterrier-staffordshire">staffordshire bullterrier</option>
-<option value="cairn">cairn</option>
-<option value="cattledog-australian">australian cattledog</option>
-<option value="chihuahua">chihuahua</option>
-<option value="chow">chow</option>
-<option value="clumber">clumber</option>
-<option value="cockapoo">cockapoo</option>
-<option value="collie-border">border collie</option>
-<option value="coonhound">coonhound</option>
-<option value="corgi-cardigan">cardigan corgi</option>
-<option value="cotondetulear">cotondetulear</option>
-<option value="dachshund">dachshund</option>
-<option value="dalmatian">dalmatian</option>
-<option value="dane-great">great dane</option>
-<option value="deerhound-scottish">scottish deerhound</option>
-<option value="dhole">dhole</option><option value="dingo">dingo</option>
-<option value="doberman">doberman</option>
-<option value="elkhound-norwegian">norwegian elkhound</option>
-<option value="entlebucher">entlebucher</option>
-<option value="eskimo">eskimo</option>
-<option value="finnish-lapphund">lapphund finnish</option>
-<option value="frise-bichon">bichon frise</option>
-<option value="germanshepherd">germanshepherd</option>
-<option value="greyhound-italian">italian greyhound</option>
-<option value="groenendael">groenendael</option>
-<option value="havanese">havanese</option>
-<option value="hound-afghan">afghan hound</option>
-<option value="hound-basset">basset hound</option>
-<option value="hound-blood">blood hound</option>
-<option value="hound-english">english hound</option>
-<option value="hound-ibizan">ibizan hound</option>
-<option value="hound-plott">plott hound</option>
-<option value="hound-walker">walker hound</option>
-<option value="husky">husky</option>
-<option value="keeshond">keeshond</option>
-<option value="kelpie">kelpie</option>
-<option value="komondor">komondor</option>
-<option value="kuvasz">kuvasz</option>
-<option value="labradoodle">labradoodle</option>
-<option value="labrador">labrador</option>
-<option value="leonberg">leonberg</option>
-<option value="lhasa">lhasa</option>
-<option value="malamute">malamute</option>
-<option value="malinois">malinois</option>
-<option value="maltese">maltese</option>
-<option value="mastiff-bull">bull mastiff</option>
-<option value="mastiff-english">english mastiff</option>
-<option value="mastiff-tibetan">tibetan mastiff</option>
-<option value="mexicanhairless">mexicanhairless</option>
-<option value="mix">mix</option>
-<option value="mountain-bernese">bernese mountain</option>
-<option value="mountain-swiss">swiss mountain</option>
-<option value="newfoundland">newfoundland</option>
-<option value="otterhound">otterhound</option>
-<option value="ovcharka-caucasian">caucasian ovcharka</option>
-<option value="papillon">papillon</option>
-<option value="pekinese">pekinese</option>
-<option value="pembroke">pembroke</option>
-<option value="pinscher-miniature">miniature pinscher</option>
-<option value="pitbull">pitbull</option>
-<option value="pointer-german">german pointer</option>
-<option value="pointer-germanlonghair">germanlonghair pointer</option>
-<option value="pomeranian">pomeranian</option>
-<option value="poodle-miniature">miniature poodle</option>
-<option value="poodle-standard">standard poodle</option>
-<option value="poodle-toy">toy poodle</option>
-<option value="pug">pug</option><option value="puggle">puggle</option>
-<option value="pyrenees">pyrenees</option>
-<option value="redbone">redbone</option>
-<option value="retriever-chesapeake">chesapeake retriever</option>
-<option value="retriever-curly">curly retriever</option>
-<option value="retriever-flatcoated">flatcoated retriever</option>
-<option value="retriever-golden">golden retriever</option>
-<option value="ridgeback-rhodesian">rhodesian ridgeback</option>
-<option value="rottweiler">rottweiler</option>
-<option value="saluki">saluki</option>
-<option value="samoyed">samoyed</option>
-<option value="schipperke">schipperke</option>
-<option value="schnauzer-giant">giant schnauzer</option>
-<option value="schnauzer-miniature">miniature schnauzer</option>
-<option value="setter-english">english setter</option>
-<option value="setter-gordon">gordon setter</option>
-<option value="setter-irish">irish setter</option>
-<option value="sheepdog-english">english sheepdog</option>
-<option value="sheepdog-shetland">shetland sheepdog</option>
-<option value="shiba">shiba</option>
-<option value="shihtzu">shihtzu</option>
-<option value="spaniel-blenheim">blenheim spaniel</option>
-<option value="spaniel-brittany">brittany spaniel</option>
-<option value="spaniel-cocker">cocker spaniel</option>
-<option value="spaniel-irish">irish spaniel</option>
-<option value="spaniel-japanese">japanese spaniel</option>
-<option value="spaniel-sussex">sussex spaniel</option>
-<option value="spaniel-welsh">welsh spaniel</option>
-<option value="springer-english">english springer</option>
-<option value="saint bernard">saint bernard</option>
-<option value="terrier-american">american terrier</option>
-<option value="terrier-australian">australian terrier</option>
-<option value="terrier-bedlington">bedlington terrier</option>
-<option value="terrier-border">border terrier</option>
-<option value="terrier-dandie">dandie terrier</option>
-<option value="terrier-fox">fox terrier</option>
-<option value="terrier-irish">irish terrier</option>
-<option value="terrier-kerryblue">kerryblue terrier</option>
-<option value="terrier-lakeland">lakeland terrier</option>
-<option value="terrier-norfolk">norfolk terrier</option>
-<option value="terrier-norwich">norwich terrier</option>
-<option value="terrier-patterdale">patterdale terrier</option>
-<option value="terrier-russell">russell terrier</option>
-<option value="terrier-scottish">scottish terrier</option>
-<option value="terrier-sealyham">sealyham terrier</option>
-<option value="terrier-silky">silky terrier</option>
-<option value="terrier-tibetan">tibetan terrier</option>
-<option value="terrier-toy">toy terrier</option>
-<option value="terrier-westhighland">westhighland terrier</option>
-<option value="terrier-wheaten">wheaten terrier</option>
-<option value="terrier-yorkshire">yorkshire terrier</option>
-<option value="vizsla">vizsla</option>
-<option value="waterdog-spanish">spanish waterdog</option>
-<option value="weimaraner">weimaraner</option>
-<option value="whippet">whippet</option>
-<option value="wolfhound-irish">irish wolfhound</option>
-                    </select></button>
-                    
-                    </div>
-                </div>
-             
-            </h1>
-
     </section>
 
-    <!-- This is just an embeded map: <hr>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1750581.7400077623!2d-111.54481505953589!3d33.66304607753823!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1623535775380!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-
-
-    <hr>
-    Interactive map?
-    <hr>
-    <div id="map">
-
-        <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn2iAJ_jB47hCFMIhvd3XSSGWtfnUYgKk&callback=initMap&libraries=&v=weekly">
-            </script>
-
-
+          
+   
 <hr>
-    Interactive map? <hr>
-    <div id="map">
+   <span id="maparea"> Search below to find your new best friend. They're waiting! </span>
 
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn2iAJ_jB47hCFMIhvd3XSSGWtfnUYgKk&callback=initMap&libraries=&v=weekly">
-    </script>
+<input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Animal Rescues Near You"
+    />
+    <div id="map"></div>
 
-    
-
-    </div>
-
-
-
-
-
-
-
-    
-
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn2iAJ_jB47hCFMIhvd3XSSGWtfnUYgKk&callback=initAutocomplete&libraries=places&v=weekly"
+      async
+    ></script>
     <section id="footer">        
 
         <div class="dogs-cats-birds">
@@ -550,6 +370,3 @@
 
 
 </html>
-
-
-
