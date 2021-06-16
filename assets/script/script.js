@@ -9,11 +9,14 @@ var dogBreedImages;
 //save About You to local Storage
 
 
-function store(){
+function store() {
   var inputanimal= document.getElementById("favoriteanimal");
   localStorage.setItem("favoriteanimal", inputanimal.value);
-}
 
+  var inputbreed= document.getElementById("favoritebreed");
+  localStorage.setItem("favoritebreed", inputbreed.value);
+
+}
 //random dog image - need to set max size
 function getRandomDog() {
   fetch("https://dog.ceo/api/breeds/image/random")
