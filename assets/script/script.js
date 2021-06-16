@@ -46,12 +46,12 @@ function getSpecificDogBreedImage () {
     return response.json();
   })
   .then(function (response){
-    console.log(response);
- 
+    
+    localStorage.setItem(breedChoice, JSON.stringify(response));
+    $("#specDogPic").attr("src", response.message);
   })
 }
 
-$("#dropDownID").on("change", getSpecificDogBreedImage);
 
 //gets list of all dog breeds and turns it into an array
 function getDogBreedList() {
