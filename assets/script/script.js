@@ -86,7 +86,7 @@ let map;
 // parameter when you first load the API. For example:
 // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 function initAutocomplete() {
-  const map = new google.maps.Map(document.getElementById("map"), {
+  var map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 33.4484, lng: -112.0740 },
     zoom: 13,
     mapTypeId: "roadmap",
@@ -148,8 +148,6 @@ function initAutocomplete() {
   });
 }
 
-
-initAutocomplete()
 getRandomCat()
 getRandomDog()
 getDogBreedList();
