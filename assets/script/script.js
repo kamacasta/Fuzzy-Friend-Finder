@@ -21,7 +21,7 @@ function getRandomDog() {
     return response.json();
   })
   .then(function (response){
-    $("#randomdog").append('<img src="' + response.message + '">');
+    $("#randomdog").html('<img src="' + response.message + '">');
     
   })
 }
@@ -33,10 +33,13 @@ function getRandomCat() {
   })
   .then(function (response){
 
-    $("#randomcat").append('<img src="' + response[0].url + '">');
+    $("#randomcat").html('<img src="' + response[0].url + '">');
     
   })
 }
+
+
+
 $("#dropDownID").on("change", getSpecificDogBreedImage);
 
 function getSpecificDogBreedImage () {
@@ -54,6 +57,7 @@ function getSpecificDogBreedImage () {
 
 
 //gets list of all dog breeds and turns it into an array
+//but this doesn't do anything else.  
 function getDogBreedList() {
   fetch("https://dog.ceo/api/breeds/list/all")
     .then(function (response) {
@@ -148,7 +152,7 @@ function initAutocomplete() {
   });
 }
 
-getRandomCat()
-getRandomDog()
+getRandomCat();
+getRandomDog();
 getDogBreedList();
 
