@@ -32,14 +32,16 @@ function getRandomCat() {
     return response.json();
   })
   .then(function (response){
-    console.log(response.url);
+
     $("#randomcat").append('<img src="' + response[0].url + '">');
     
   })
 }
+$("#dropDownID").on("change", getSpecificDogBreedImage);
 
 function getSpecificDogBreedImage () {
-  fetch("https://dog.ceo/api/breed/"+        +"/images/random")
+  var breedChoice = $("#dropDownID").val();
+  fetch("https://dog.ceo/api/breed/"+ breedChoice +"/images/random")
   .then(function (response){
     return response.json();
   })
@@ -49,7 +51,7 @@ function getSpecificDogBreedImage () {
   })
 }
 
-$("#dogButton").on("change", getSpecificDogBreedImage);
+$("#dropDownID").on("change", getSpecificDogBreedImage);
 
 //gets list of all dog breeds and turns it into an array
 function getDogBreedList() {
@@ -76,8 +78,6 @@ function getDogBreedImages() {
       console.log(dogBreedImages);
     });
 }
-
-let map;
 
 // This example adds a search box to a map, using the Google Place Autocomplete
 // feature. People can enter geographical searches. The search box will return a
