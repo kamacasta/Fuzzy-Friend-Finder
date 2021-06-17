@@ -46,7 +46,7 @@
     <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder">View Demo</a>
+    <a href="https://kamacasta.github.io/Fuzzy-Friend-Finder">View Demo</a>
     ·
     <a href="https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues">Report Bug</a>
     ·
@@ -130,6 +130,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 See the [open issues](https://github.com/KamaCasta/Fuzzy-Friend-Finder/issues) for a list of proposed features (and known issues).
+  * Specificity in the adoption searches
+  * FAQ section
+  * Sponsorship
 
 
 
@@ -156,7 +159,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 <!-- CONTACT -->
 ## Contact
 
-Thomas Begush - [@KamaCasta](https://twitter.com/KamaCasta) - KamaCasta@gmail.com - 
+Kama Castaneda - [@KamaCasta](https://twitter.com/KamaCasta) - KamaCasta@gmail.com - 
 
 Project Link: [https://github.com/KamaCasta/Fuzzy-Friend-Finder](https://github.com/KamaCasta/Fuzzy-Friend-Finder)
 
