@@ -35,7 +35,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kamacasta/Magnificent-Seven-project">
-    <img src="./assets/images/Fuzzy-Friend-Finder-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./assets/images/FuzzyFriends.png" alt="Logo" width="363" height=auto>
   </a>
 
   <h3 align="center">Fuzzy-Friend-Finder</h3>
