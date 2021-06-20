@@ -111,15 +111,6 @@ p {
     text-align: left;
 } 
 
-
-.articles  {
-    display: flex;
-    justify-content: center;
-
-}
-
-
-
 .furry-friend-heading {
     display: flex;
     justify-content: center;
@@ -144,7 +135,7 @@ div {
   display: inline-flex;
   columns: 1;
   justify-content: space-evenly;
-  float: right;
+  float: left;
   width: 45%;
 }
 
@@ -154,7 +145,7 @@ div {
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
-  float: right;
+  float: center;
   
 
 }
@@ -193,7 +184,7 @@ div {
         flex-wrap: wrap;
         display: inline-flex;
         height: 50%;
-        width: 45%;
+        width: 100%;
       }
 
       .div {
