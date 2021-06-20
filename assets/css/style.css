@@ -130,15 +130,6 @@ div {
   flex-wrap: wrap;
 }
 
-#Adopt {
-  display: flex;
-  display: inline-flex;
-  columns: 1;
-  justify-content: space-evenly;
-  float: left;
-  width: 45%;
-}
-
 #dropDownID {
   display: flex;
   flex-direction: column;
@@ -146,8 +137,6 @@ div {
   position: -webkit-sticky;
   position: sticky;
   float: center;
-  
-
 }
 
 #specDogPic {
