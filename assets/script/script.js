@@ -10,12 +10,14 @@ var dogBreedImages;
 
 
 function store() {
-  var inputanimal= document.getElementById("favoriteanimal");
-  localStorage.setItem("favoriteanimal", inputanimal.value);
+  var inputFirstLastName= document.getElementById("firstLastName");
+  localStorage.setItem("firstLastName", inputFirstLastName.value);
 
-  var inputbreed= document.getElementById("favoritebreed");
-  localStorage.setItem("favoritebreed", inputbreed.value);
+  var inputEmail= document.getElementById("email");
+  localStorage.setItem("email", inputEmail.value);
 
+  var inputPetPicture = document.getElementById("petPicture");
+  localStorage.setItem("petPicture", inputPetPicture.value);
 }
 //random dog image - need to set max size
 function getRandomDog() {
