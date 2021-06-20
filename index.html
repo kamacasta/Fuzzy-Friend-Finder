@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,9 +22,9 @@
                     <!-- Possible logo cant get the size I want -kama <img src="./assets/images/FuzzyFriends.png" width="112" height="50"> -->
                 </a>
                 <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                    <!-- <span></span>
                     <span></span>
-                    <span></span>
-                    <span></span>
+                    <span></span> -->
                 </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable navbar-end">
@@ -45,12 +44,10 @@
                         Birds
                     </a>
                     <hr class="navbar-divider">
-                    <a class="navbar-item" href="http://www.azbcr.org/"
-                        target="_blank">
+                    <a class="navbar-item" href="http://www.azbcr.org/" target="_blank">
                         Collie Rescue
                     </a>
-                    <a class="navbar-item" href="https://fallenfeathers.org/"
-                        target="_blank">
+                    <a class="navbar-item" href="https://fallenfeathers.org/" target="_blank">
                         Bird Rescue
                     </a>
                     <a class="navbar-item" href="https://www.azhumane.org/adopt/find-a-pet/adopt-a-cat/"
@@ -89,174 +86,149 @@
         <!-- End of Hero-->
 
         <!--Form Begins-->
-        <section class="about">
+        <main class="about">
             <div class="column is-one-third">
                 <div class="box is-align-self-flex-start">
-                    <h3 class="subtitle is-5">Show Us Your Pet!
+                    <h3 class="title is-4 has-text-centered">Show Us Your Pet!
                     </h3>
                     <p>Enter contact info!</p>
                     <form>
                         <div class="field">
-                        <label for="First & Last Name"></label>
-                        <input type="text" placeholder="First & Last Name" id="firstLastName" name="First & Last Name"
-                            class="form-input" />
-                        <label for="email"></label>
-                        <input type="text" placeholder="Email" id="email" name="email"
-                            class="form-input" />
-                        <p>
-                            Have you Adopted Before?
-                            <span class="radio-wrapper">
-                                <input type="radio" name="adoption-confirm" id="adoption-yes" />
-                                <label for="adoption-yes">Yes</label>
+                            <label for="First & Last Name"></label>
+                            <input type="text" placeholder="First & Last Name" id="firstLastName"
+                                name="First & Last Name" class="form-input" />
+                            <label for="email"></label>
+                            <input type="text" placeholder="Email" id="email" name="email" class="form-input" />
+                            <p>
+                                Have you Adopted?
                                 <span class="radio-wrapper">
-                                    <input type="radio" name="adoption-confirm" id="adoption-no" />
-                                    <label for="adoption-no">No</label>
-                        </p>
-                        <button onclick="store()" type="button" class="button is-light">Submit</button>
+                                    <input type="radio" name="adoption-confirm" id="adoption-yes" />
+                                    <label for="adoption-yes">Yes</label>
+                                    <span class="radio-wrapper">
+                                        <input type="radio" name="adoption-confirm" id="adoption-no" />
+                                        <label for="adoption-no">No</label>
+                            </p>
+                            <button onclick="store()" type="button" class="button is-light">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
             <!-- Form ends wrapped with column and box div placed inside -->
-            <div class="column is-one-third">
+            <section class="column is-one-third">
                 <div class=" box is-align-self-flex-end">
-                    <h2>About Us</h2>
-                    <p>This site was created by 3 coding bootcamp students who all share the love
-                        for adopting and caring for animals. On this site you can view images of 
+                    <h2 class="title is-4 has-text-centered">About Us</h2>
+                    <p class="has-text-centered">This site was created by 3 coding bootcamp students who all share the love
+                        for adopting and caring for animals. On this site you can view images of
                         different types of dogs using the dropdown, use the google search engine to find
-                        animal shelters, petcos, vet clinics, and so much more. And of course by refreshing 
-                        the page, we will generate an adorable image of both a cat and dog! 
+                        animal shelters, petcos, vet clinics, and so much more. And of course by refreshing
+                        the page, we will generate an adorable image of both a cat and dog!
                     </p>
                 </div>
-            </div>
-        </section>
-        <br>
-        <section class="hero is-small is-primary">
-            <div class="hero-body">
-                <p class="title has-text-centered">
-        <section class="section">
-            <h1 class="title" id="randompics">Random Fuzzy Friend Photos!</h1>
-        </p>
-        </div>
             </section>
-            <div class="RandomFuzzy">
-
-                <div id="randomdog" name="randomdogname" alt="A picture of a random dog!">
-
-                </div>
-                <div id="randomcat" name="randomcatname" alt="A picture of a random cat!">
-                </div>
-            </div>
+        </main>
+        <br>
+        <section class="hero is-small is-info block">
+            <div class="hero-body">
+                <h1 class="title has-text-centered" id="randompics">Random Fuzzy Friend Photos!</h1>
             </div>
         </section>
 
-
-        </div>
-        </div>
+        <div class="RandomFuzzy">
+            <div class="block" id="randomdog" name="randomdogname" alt="A picture of a random dog!">
+            </div>
+            <div class="block" id="randomcat" name="randomcatname" alt="A picture of a random cat!">
+            </div>
+            </section>
         </div>
     </header>
-    <section class="hero is-small is-info">
-        <div class="hero-body is-small">
-            <p class="title has-text-centered">
-    <section class="section">
-        <h1 class="title" id="randompics">Don't Shop. Adopt!</h1>
-    
-    </p>
+
+    <section class="hero is-small is-info block">
+        <div class="hero-body">
+            <h1 class="title has-text-centered" id="randompics">Dont Shop. Adopt!</h1>
+        </div>
+    </section>
+
+    <section id="field is-size-1-mobile is-size-1-desktop">
+        <div class="control block">
+        <div class="select">
+        <select id="dropDownID">
+            <option value="Choose Your Dog">Choose Your Dog Breed</option>
+            <option value="affenpinscher">affenpinscher</option>
+            <option value="african">african</option>
+            <option value="airedale">airedale</option>
+            <option value="akita">akita</option>
+            <option value="appenzeller">appenzeller</option>
+            <option value="basenji">basenji</option>
+            <option value="beagle">beagle</option>
+            <option value="bluetick">bluetick</option>
+            <option value="borzoi">borzoi</option>
+            <option value="bouvier">bouvier</option>
+            <option value="boxer">boxer</option>
+            <option value="brabancon">brabancon</option>
+            <option value="briard">briard</option>
+            <option value="cairn">cairn</option>
+            <option value="chihuahua">chihuahua</option>
+            <option value="chow">chow</option>
+            <option value="clumber">clumber</option>
+            <option value="cockapoo">cockapoo</option>
+            <option value="coonhound">coonhound</option>
+            <option value="cotondetulear">cotondetulear</option>
+            <option value="dachshund">dachshund</option>
+            <option value="dalmatian">dalmatian</option>
+            <option value="dhole">dhole</option>
+            <option value="dingo">dingo</option>
+            <option value="doberman">doberman</option>
+            <option value="entlebucher">entlebucher</option>
+            <option value="eskimo">eskimo</option>
+            <option value="germanshepherd">germanshepherd</option>
+            <option value="groenendael">groenendael</option>
+            <option value="havanese">havanese</option>
+            <option value="husky">husky</option>
+            <option value="keeshond">keeshond</option>
+            <option value="kelpie">kelpie</option>
+            <option value="komondor">komondor</option>
+            <option value="kuvasz">kuvasz</option>
+            <option value="labradoodle">labradoodle</option>
+            <option value="labrador">labrador</option>
+            <option value="leonberg">leonberg</option>
+            <option value="lhasa">lhasa</option>
+            <option value="malamute">malamute</option>
+            <option value="malinois">malinois</option>
+            <option value="maltese">maltese</option>
+            <option value="mastiff-bull">bull mastiff</option>
+            <option value="mexicanhairless">mexicanhairless</option>
+            <option value="mix">mix</option>
+            <option value="newfoundland">newfoundland</option>
+            <option value="otterhound">otterhound</option>
+            <option value="papillon">papillon</option>
+            <option value="pekinese">pekinese</option>
+            <option value="pembroke">pembroke</option>
+            <option value="pitbull">pitbull</option>
+            <option value="pomeranian">pomeranian</option>
+            <option value="pug">pug</option>
+            <option value="puggle">puggle</option>
+            <option value="pyrenees">pyrenees</option>
+            <option value="redbone">redbone</option>
+            <option value="rottweiler">rottweiler</option>
+            <option value="saluki">saluki</option>
+            <option value="samoyed">samoyed</option>
+            <option value="schipperke">schipperke</option>
+            <option value="shiba">shiba</option>
+            <option value="shihtzu">shihtzu</option>
+            <option value="vizsla">vizsla</option>
+            <option value="weimaraner">weimaraner</option>
+            <option value="whippet">whippet</option>
+        </select>
+        </div>
+        </div>
+        <img id="specDogPic" />
+    </section>
+
+    <div>
+        <h2 class="is-size-6">(Search below to find your new best friend shown above, there waiting!)</h2>
     </div>
-        </section>
 
-        <section id="Adopt is-size-1-mobile is-size-1-desktop">
-            <div class="second-header block"></div>
-                    <div class="dog-breed-selector"></div>
-                </div>
-                            <select id="dropDownID">
-                                <option value="Choose Your Dog">Choose Your Dog Breed</option>
-                                <option value="affenpinscher">affenpinscher</option>
-                                <option value="african">african</option>
-                                <option value="airedale">airedale</option>
-                                <option value="akita">akita</option>
-                                <option value="appenzeller">appenzeller</option>
-                                <option value="basenji">basenji</option>
-                                <option value="beagle">beagle</option>
-                                <option value="bluetick">bluetick</option>
-                                <option value="borzoi">borzoi</option>
-                                <option value="bouvier">bouvier</option>
-                                <option value="boxer">boxer</option>
-                                <option value="brabancon">brabancon</option>
-                                <option value="briard">briard</option>
-                                <option value="cairn">cairn</option>
-                                <option value="chihuahua">chihuahua</option>
-                                <option value="chow">chow</option>
-                                <option value="clumber">clumber</option>
-                                <option value="cockapoo">cockapoo</option>
-                                <option value="coonhound">coonhound</option>
-                                <option value="cotondetulear">cotondetulear</option>
-                                <option value="dachshund">dachshund</option>
-                                <option value="dalmatian">dalmatian</option>
-                                <option value="dhole">dhole</option>
-                                <option value="dingo">dingo</option>
-                                <option value="doberman">doberman</option>
-                                <option value="entlebucher">entlebucher</option>
-                                <option value="eskimo">eskimo</option>
-                                <option value="germanshepherd">germanshepherd</option>
-                                <option value="groenendael">groenendael</option>
-                                <option value="havanese">havanese</option>
-                                <option value="husky">husky</option>
-                                <option value="keeshond">keeshond</option>
-                                <option value="kelpie">kelpie</option>
-                                <option value="komondor">komondor</option>
-                                <option value="kuvasz">kuvasz</option>
-                                <option value="labradoodle">labradoodle</option>
-                                <option value="labrador">labrador</option>
-                                <option value="leonberg">leonberg</option>
-                                <option value="lhasa">lhasa</option>
-                                <option value="malamute">malamute</option>
-                                <option value="malinois">malinois</option>
-                                <option value="maltese">maltese</option>
-                                <option value="mastiff-bull">bull mastiff</option>
-                                <option value="mexicanhairless">mexicanhairless</option>
-                                <option value="mix">mix</option>
-                                <option value="newfoundland">newfoundland</option>
-                                <option value="otterhound">otterhound</option>
-                                <option value="papillon">papillon</option>
-                                <option value="pekinese">pekinese</option>
-                                <option value="pembroke">pembroke</option>
-                                <option value="pitbull">pitbull</option>
-                                <option value="pomeranian">pomeranian</option>
-                                <option value="pug">pug</option>
-                                <option value="puggle">puggle</option>
-                                <option value="pyrenees">pyrenees</option>
-                                <option value="redbone">redbone</option>
-                                <option value="rottweiler">rottweiler</option>
-                                <option value="saluki">saluki</option>
-                                <option value="samoyed">samoyed</option>
-                                <option value="schipperke">schipperke</option>
-                                <option value="shiba">shiba</option>
-                                <option value="shihtzu">shihtzu</option>
-                                <option value="vizsla">vizsla</option>
-                                <option value="weimaraner">weimaraner</option>
-                                <option value="whippet">whippet</option>
-                            </select>
-                        </div>
-                        <img id="specDogPic"/>
-
-                    </div>
-                </div>
-        </section>
-    </section>
-
-
-    <section id="find">
-        <div class="second-header block"></div>
-
-        <h1>
-            <div class="is-size-6">(Search below to find your new best friend shown above, there waiting!)</div>
-            </div>
-    </section>
-
-
-
-    <input id="pac-input" class="controls is-mobile" type="text" placeholder="Search Animal Rescues Near You"/>
+    <input id="pac-input" class="controls is-mobile" type="text" placeholder="Search Animal Rescues Near You" />
 
     <div id="map"></div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
